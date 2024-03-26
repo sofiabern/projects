@@ -12,11 +12,13 @@
   ul, ol {
     list-style: none;
   }
-  
+
+
   .link{
     font-family: Montserrat, sans-serif;
     font-size: 18px;
     font-weight: 500;
 
     color: rgb(63, 63, 63);
+    
   }
