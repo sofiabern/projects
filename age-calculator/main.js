@@ -22,6 +22,7 @@ function calculateMs(dateValue) {
   const currentMs = new Date().getTime();
   const birthMs = new Date(dateValue).getTime();
   if (birthMs > currentMs) {
+    boxEl.innerHTML = ""
     alert("Sorry, we can calculate your age if you already are born");
     return;
   }
